@@ -6,9 +6,9 @@
   "unity": "2019.3",
   "description": "A bunch of various useful extension methods for Unity & general gamedev purposes.",
   "keywords": [
-    "extensions",    
+    "extensions"
 	],
   "category": "Extensions",
   "documentationUrl": "https://github.com/V0odo0/KNOT-Extensions",
-  "changelogUrl": "https://github.com/V0odo0/KNOT-Extensions/blob/main/CHANGELOG.md",  
+  "changelogUrl": "https://github.com/V0odo0/KNOT-Extensions/blob/main/CHANGELOG.md"
 }
