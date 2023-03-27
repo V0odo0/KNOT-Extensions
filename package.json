@@ -1,22 +1,14 @@
 {
-  "name": "com.knot.audio",
-  "version": "0.1.0",
+  "name": "com.knot.extensions",
+  "version": "1.0.0",
   "author": "V0odo0",
-  "displayName": "KNOT Audio",
+  "displayName": "KNOT Extensions",
   "unity": "2019.3",
-  "description": "Lightweight, scalable and extensible audio manager for Unity.",
+  "description": "A bunch of various useful extension methods for Unity & general gamedev purposes.",
   "keywords": [
-    "audio",
-    "sound"
+    "extensions",    
 	],
-  "category": "Audio",
-  "documentationUrl": "https://github.com/V0odo0/KNOT-Audio",
-  "changelogUrl": "https://github.com/V0odo0/KNOT-Audio/blob/main/CHANGELOG.md",
-  "samples": [
-        {
-            "displayName": "Demo",
-            "description": "Features overview",
-            "path": "Samples~/Demo"
-        }
-    ]
+  "category": "Extensions",
+  "documentationUrl": "https://github.com/V0odo0/KNOT-Extensions",
+  "changelogUrl": "https://github.com/V0odo0/KNOT-Extensions/blob/main/CHANGELOG.md",  
 }
