@@ -268,6 +268,16 @@ namespace Knot.Extensions
         #endregion
 
         #region Numerics
+        public static int ClampFromMinMax(this int value, int absMinMax)
+        {
+            if (absMinMax == 0)
+                return 0;
+
+            return absMinMax > 0 
+                ? Mathf.Clamp(value, -absMinMax, absMinMax) 
+                : Mathf.Clamp(value, absMinMax, -absMinMax);
+        }
+
         public static float Remap(this float value, float fromMin, float fromMax, float toMin, float toMax)
         {
             return toMin + (value - fromMin) * (toMax - toMin) / (fromMax - fromMin);
