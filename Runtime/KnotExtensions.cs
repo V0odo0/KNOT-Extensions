@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -111,6 +112,12 @@ namespace Knot.Extensions
         #endregion
 
         #region String
+        public static bool TryParseFloatInput(this string input, out float val)
+        {
+            return float.TryParse(input, NumberStyles.Float, CultureInfo.GetCultureInfo("en-US"), out val) ||
+                   float.TryParse(input, NumberStyles.Float, CultureInfo.GetCultureInfo("fr-fr"), out val);
+        }
+
         public static bool IsValidUrl(this string url)
         {
             return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
